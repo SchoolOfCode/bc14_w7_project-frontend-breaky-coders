@@ -6,7 +6,7 @@ const flashCardsListData = [
       answer: "The DOM (Document Object Model) is a programming interface for web documents that represents the page so that programs can change the document structure, style, and content."
     },
     {
-      question: "What is The modular operator?",
+      question: "What is the modular operator?",
       answer: "The modular operator is a binary operator that returns the integer remainder of the division of two operands."
     },
     {

@@ -19,7 +19,7 @@ function App() {
         </div>
         </header>
         <main>
-          <RandomFlashCard flashcards={flashCardsList}/>
+          <RandomFlashCard flashcards={flashCardsList} flashCardsListData={flashCardsListData}/>
 
           <nav className="nav__buttons">
             <div className="nav__buttons-button">
