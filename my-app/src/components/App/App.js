@@ -1,11 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 import './App.css';
 import bearTitleImage from '../../assets/bearTitleImage.png'
+import RandomFlashCard from '../RandomFlashCard';
+import flashCardsListData from './stateData';
 
 function App() {
-
- 
-
+  
+  // this is the state for the flashcards the initial value is the data from the stateData.js file
+  const [flashCardsList, setFlashCards] = useState(flashCardsListData); 
   return (
     <div className="App">
       <div className="overlay">
@@ -16,15 +19,8 @@ function App() {
         </div>
         </header>
         <main>
-          <div className="main__random_flashcard">
-            <div className="main__random_flashcard-card">
-              <div className="question">What is the capital of France?</div>
-              <div className="answer">The capital of France is Paris.</div>
-            </div>
-            <div className ="main__random_flashcard-button">
-              <button>Tell Me Another</button>
-            </div>
-          </div>
+          <RandomFlashCard flashcards={flashCardsList}/>
+
           <nav className="nav__buttons">
             <div className="nav__buttons-button">
               <button>Add A Flashcard</button>
@@ -38,7 +34,7 @@ function App() {
           </nav>
         </main>
       </div>
-    </div>
+    </div> 
   );
 }
 
