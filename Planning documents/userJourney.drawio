@@ -1,0 +1,143 @@
+<mxfile host="Electron" modified="2023-04-25T13:01:09.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="Ps7hsspiOz6m6wZTUaDw" version="21.2.1" type="device">
+  <diagram name="Page-1" id="9pni2ANAsoNtbza--Bfk">
+    <mxGraphModel dx="2745" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-1" target="aNk0oDCw3ruPnbdOb1Dp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-2" value="User See App Advert and Clicks lead Button" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-3" target="aNk0oDCw3ruPnbdOb1Dp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-4" value="User is taken to Landing Page&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-5" target="aNk0oDCw3ruPnbdOb1Dp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-5" target="aNk0oDCw3ruPnbdOb1Dp-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-5" target="aNk0oDCw3ruPnbdOb1Dp-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="325" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-6" value="User&amp;nbsp; can see &lt;br&gt;a snipet of reminder from past lesson and a button to change the snipet messase, a Button to Test yourself and another Button to create a New Flash Card" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-7" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-8" value="User clicks the Button to load another snippet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="567.5" width="122.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="540" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-10" value="A new random snippet is visible to the user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="110" height="26.25" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-16" value="Load another Snippet Button Clicked:&lt;br&gt;&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.8" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="585.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-17" value="A new Blank Flash Card is&lt;br&gt;visible to the user with 2 Input fields and 1 Submit Button&lt;br&gt;and 1 Cancel Button" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="540" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-18" target="aNk0oDCw3ruPnbdOb1Dp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-18" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="570" y="315" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-19" value="User clicks the Button to Create a New Flash Card" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="614.38" y="363.75" width="151.25" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-22" value="Create New Flash Card Button clicked:&lt;br&gt;&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="114.38" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-23" value="On submit,&lt;br&gt;Content of card is saved&lt;br&gt;to an array&lt;br&gt;And Flash Card&lt;br&gt;is cleared" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="490.63" y="670" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-26" value="Submit Button Clicked:&lt;br&gt;&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-27" value="On Cancel,&lt;br&gt;Content of card is NOT&lt;br&gt;saved to an array&lt;br&gt;And Flash Card&lt;br&gt;is Deleted" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="840" y="525" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-30" value="Cancel Button Clicked:&lt;br&gt;&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="525" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-34" value="&lt;h1&gt;User Flow&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Our Bootcamper journey through the App&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="30" width="275" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="379.8947368421053" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-36" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="310" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-37" value="User clicks the Button to Test Yourself" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6.25" y="371.25" width="122.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-39" value="Test Yourself Button Clicked:&lt;br&gt;&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-40" target="aNk0oDCw3ruPnbdOb1Dp-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-549.9999999999998" y="390.3913043478261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="330" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-41" value="A random Flash Card is visible to the user&lt;br&gt;answer will be hidden from the user&lt;br&gt;&lt;b&gt;2 Buttons&lt;/b&gt; visible to the user&lt;br&gt;one - Reveals the answer for the current card&lt;br&gt;two - Generates a new Random Flash Card&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="376.87" width="250" height="26.25" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.537;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aNk0oDCw3ruPnbdOb1Dp-43" target="aNk0oDCw3ruPnbdOb1Dp-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-43" value="&lt;b&gt;Button Two&lt;/b&gt;&lt;br&gt;Generates a new&lt;br&gt;Random Flash Card&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="520" width="280" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-46" value="&lt;b&gt;Button One&lt;/b&gt;&lt;br&gt;Reveals the answer for&lt;br&gt;the current card" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="307.5" width="250" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-47" value="Button &lt;b&gt;One&lt;/b&gt; Clicked:&lt;br&gt;&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aNk0oDCw3ruPnbdOb1Dp-48" value="Button &lt;b&gt;Two&lt;/b&gt;&amp;nbsp;Clicked:&lt;br&gt;&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
