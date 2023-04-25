@@ -1,0 +1,8 @@
+DONE- Choose a team name: Get creative and pick a unique name that represents your team.
+DONE- Create a team manifesto: Collaborate to establish your team's values, goals, and commitments for the project week.
+DONE- Choose a problem and understand your user: Identify the problem you want to tackle and gain insights into your target users' needs and pain points.
+- Create wireframes/designs: Start working on the visual aspects of your project, including wireframes, designs, and user experience planning.
+- Plan out component trees: Break down your app into its individual components, mapping out their relationships and hierarchy.
+- Set up a Trello board: Organize your work by creating a Trello board and breaking down tasks into tickets/story points.
+- Research and choose appropriate libraries/tools: Identify any additional libraries, tools, or frameworks that may be beneficial for your project, such as React UI libraries or APIs. Research their functionalities and ensure they align with your project's requirements.
+- Define project milestones and deadlines: Create a timeline for your project, establishing milestones and deadlines to keep the team on track and ensure timely completion.
