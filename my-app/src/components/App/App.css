@@ -42,7 +42,7 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
+  margin-top: 5em;
 }
 
 .main__random_flashcard-card {
@@ -72,7 +72,7 @@ img{
 }
 
 .main__random_flashcard-button{
-  margin-top: .4em;
+  margin-top: .6em;
   
 }
 
@@ -98,7 +98,7 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 10em;
+  margin-top: 7em;
 }
 
 .nav__buttons-button{

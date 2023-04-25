@@ -1,17 +1,16 @@
 import React from 'react';
 import './App.css';
 import bearTitleImage from '../../assets/bearTitleImage.png'
-import { Card } from 'primereact/card';
 
 function App() {
+
+ 
+
   return (
     <div className="App">
       <div className="overlay">
 
         <header className="header">
-          <div className="header__title">
-          <h1>Bear In Mind</h1> 
-          </div>
         <div className="header__image">
           <img src={bearTitleImage} alt="bearTitleImage" />
         </div>
