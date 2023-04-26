@@ -6,9 +6,12 @@ import RandomFlashCard from '../RandomFlashCard';
 import flashCardsListData from './stateData';
 
 function App() {
+
   
-  // this is the state for the flashcards the initial value is the data from the stateData.js file
-  const [flashCardsList, setFlashCards] = useState(flashCardsListData); 
+  
+  const [flashCardsList, setFlashCards] = useState(flashCardsListData); // this is the state for the flashcards the initial value is the data from the stateData.js file
+
+
   return (
     <div className="App">
       <div className="overlay">
