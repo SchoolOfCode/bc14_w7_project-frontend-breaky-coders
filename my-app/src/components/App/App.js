@@ -3,6 +3,8 @@ import { useState } from "react";
 import "./App.css";
 import HomePage from "../HomePage";
 import MyFlashcards from "../MyFlashcards";
+import TestMe from "../TestMe";
+import AddAFlashcard from "../AddAFlashcard";
 
 function App() {
   const [page, setPage] = useState("homepage");
@@ -12,6 +14,10 @@ function App() {
       return <HomePage setPage={setPage} />;
     } else if (page === "myFlashcards") {
       return <MyFlashcards setPage={setPage} />;
+    } else if (page === "testMe") {
+      return <TestMe setPage={setPage} />
+    } else if (page === "addAFlashcard") {
+      return <AddAFlashcard setPage={setPage} />;
     }
   }
 
