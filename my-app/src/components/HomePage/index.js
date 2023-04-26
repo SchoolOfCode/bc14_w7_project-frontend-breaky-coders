@@ -3,12 +3,10 @@ import { useState } from "react";
 import "../App/App.css";
 import bearTitleImage from "../../assets/bearTitleImage.png";
 import RandomFlashCard from "../RandomFlashCard";
-import flashCardsListData from "./stateData";
+import flashCardsListData from "../App/stateData";
 
 
-function HomePage({setPage}) {
-  // this is the state for the flashcards the initial value is the data from the stateData.js file
-    const [flashCardsList, setFlashCards] = useState(flashCardsListData);
+function HomePage({setPage, flashCardsList}) {
 
     function handleClick(page) {
         setPage(page);
