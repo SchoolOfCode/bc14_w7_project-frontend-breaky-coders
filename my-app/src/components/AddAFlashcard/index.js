@@ -42,7 +42,10 @@ function AddAFlashcard() {
   <h1>CREATE A FLASHCARD</h1>
   <div className = 'flashcard-div'>
     <label htmlFor="question">QUESTION</label>
+    {/* HELP */}
+      <div className="firstWhiteBox"> 
     <input type="text" name="question" onChange={handleChangeQuestion} />
+      </div>
     <br></br>
     <br></br>
     <br></br>
@@ -54,5 +57,4 @@ function AddAFlashcard() {
   </main>
   )
 }
-
 export default AddAFlashcard;
