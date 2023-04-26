@@ -1,0 +1,33 @@
+.addAFlashCard{
+    display: flex;
+    background-color: #fdefe3;
+    height: 100vh;
+}
+
+h1{
+    display: block;
+    text-align: center;
+
+}
+
+.flashcard-div{
+    display: flex;
+    background-color: #d16e32;
+    width: 30vw;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.submit{
+    width: 10em;
+    padding: 1em;
+    height: 2em;
+}
+
+.cancel{
+    width: 10em;
+    padding: 1em;
+    height: 2em;
+}
