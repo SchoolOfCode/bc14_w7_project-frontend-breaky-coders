@@ -9,6 +9,7 @@ import flashCardsListData from "./stateData";
 
 function App() {
   const [page, setPage] = useState("homepage");
+  
 
   // this is the state for the flashcards the initial value is the data from the stateData.js file
   const [flashCardsList, setFlashCards] = useState(flashCardsListData);
