@@ -1,5 +1,4 @@
 
-
 const flashCardsListData = [
     {
       question: "What is the DOM?",

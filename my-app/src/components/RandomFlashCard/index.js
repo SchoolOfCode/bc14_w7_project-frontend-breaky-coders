@@ -15,7 +15,6 @@ function RandomFlashCard({ flashcards,flashCardsListData}) { // changeFlashcard 
         setRandomIndex(Math.floor(Math.random() * (flashcards.length - 1))); // the random index is being set to a new random number
   };
 
-
   return (
     <div className="main__random_flashcard">
       <div className="main__random_flashcard-card">
