@@ -1,13 +1,17 @@
-// import App from "../App/App";
 import Flashcard from "../Flashcard/"
 
 function MyFlashcards({flashcardsList}) {
     
-return (
-<div>
-    <h1>hi </h1>
-        <Flashcard flashcardsList = {flashcardsList} />
+  return (
+    <div className="overlay">
+        <div className="overlay__content">
 
-</div>
-)}
+      {flashcardsList.map((flashcard, index) => {
+        return <Flashcard key={index} flashcardList={flashcard}/>
+      })}
+
+        </div>
+    </div>
+  );
+}
 export default MyFlashcards;

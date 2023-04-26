@@ -1,14 +1,11 @@
-function Flashcard ({flashcardList, index}) {
+function Flashcard ({flashcardList}) {
 
-    const singleFlashcard = flashcardList[index]
 
     return (
-
-        <div className = "flashcard">
-            <div className = "flashcard__card">
-                <div classname = "question">{singleFlashcard[Object.keys(singleFlashcard)[0]]} </div>
-                <div className = "answer"> {singleFlashcard[Object.keys(singleFlashcard)[1]]}</div>
-
+        <div className = "singleFlashcard">
+            <div className = "singleFlashcard__card">
+                <div className = "question">{flashcardList.question}</div>
+                <div className = "answer">{flashcardList.answer}</div>
             </div>
          </div>
     )
