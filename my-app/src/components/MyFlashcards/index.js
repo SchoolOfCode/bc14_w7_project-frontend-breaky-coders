@@ -1,9 +1,13 @@
 // import App from "../App/App";
+import Flashcard from "../Flashcard/"
 
-
-function MyFlashcards() {
+function MyFlashcards({flashcardsList}) {
     
-return (<h1>Hello There MyFlashcards</h1> )
-}
+return (
+<div>
+    <h1>hi </h1>
+        <Flashcard flashcardsList = {flashcardsList} />
 
+</div>
+)}
 export default MyFlashcards;
