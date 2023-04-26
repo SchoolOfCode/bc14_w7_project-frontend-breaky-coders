@@ -5,6 +5,7 @@ import bearTitleImage from "../../assets/bearTitleImage.png";
 import RandomFlashCard from "../RandomFlashCard";
 import flashCardsListData from "./stateData";
 
+
 function HomePage({setPage}) {
   // this is the state for the flashcards the initial value is the data from the stateData.js file
     const [flashCardsList, setFlashCards] = useState(flashCardsListData);
@@ -29,7 +30,9 @@ function HomePage({setPage}) {
 
           <nav className="nav__buttons">
             <div className="nav__buttons-button">
-              <button>Add A Flashcard</button>
+              <button onClick={() => handleClick("addAFlashcard")}>
+                Add A Flashcard
+              </button>
             </div>
             <div className="nav__buttons-button">
               <button onClick={() => handleClick("myFlashcards")}>
@@ -37,7 +40,7 @@ function HomePage({setPage}) {
               </button>
             </div>
             <div className="nav__buttons-button">
-              <button>Test Me</button>
+              <button onClick={() => handleClick("testMe")}>Test Me</button>
             </div>
           </nav>
         </main>

@@ -1,9 +1,9 @@
-import App from "../App/App";
+// import App from "../App/App";
 
 
 function MyFlashcards() {
     
-return (<h1>Hello There</h1> )
+return (<h1>Hello There MyFlashcards</h1> )
 }
 
-export default MyFlashcards
+export default MyFlashcards;
