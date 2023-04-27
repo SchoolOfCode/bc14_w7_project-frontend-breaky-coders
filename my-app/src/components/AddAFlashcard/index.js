@@ -77,6 +77,7 @@ function AddAFlashcard({ setPage }) {
           required
           className="firstWhiteBox"
           type="text"
+          contenteditable="true"
           name="question"
           onChange={handleChangeQuestion}
           value={questionInputValue}
@@ -86,6 +87,7 @@ function AddAFlashcard({ setPage }) {
         <textarea
           className="secondWhiteBox"
           type="text"
+          contenteditable="true"
           name="answer"
           value={answerInputValue}
           onChange={handleChangeAnswer}
