@@ -59,6 +59,10 @@ const flashCardsListData = [
     {
       question: "What is a pure function?",
       answer: "A pure function is a function that always returns the same result if the same arguments are passed in. It does not depend on any state, or data, change during a programs execution. It must also not cause any side effects."
+    },
+    {
+      question: "What is the difference between a stateful and stateless component in React?",
+      answer: "Stateful components are components that manage state. Stateless components are components that do not manage state."
     }
 
 ];
