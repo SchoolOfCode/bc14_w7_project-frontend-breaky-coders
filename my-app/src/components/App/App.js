@@ -20,7 +20,7 @@ function App() {
     } else if (page === "myFlashcards") {
       return <MyFlashcards setPage={setPage} flashcardsList={flashCardsList} />;
     } else if (page === "testMe") {
-      return <TestMe setPage={setPage} />
+      return <TestMe setPage={setPage} flashcardsList={flashCardsList}/>
     } else if (page === "addAFlashcard") {
       return <AddAFlashcard setPage={setPage} />;
     }

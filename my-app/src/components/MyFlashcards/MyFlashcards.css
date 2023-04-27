@@ -1,5 +1,5 @@
 body{
-    background-color: #F59F42;
+    background-color: #247976;
 }
 
 .overlay__header{
@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: flex-start;
     margin-right: 2em;
-    background-color: teal !important;
+    background-color: #F59F42 !important;
     border-radius: 20px;
     border: none;
     cursor: pointer;

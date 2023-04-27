@@ -1,0 +1,14 @@
+.overlay__content{
+    display: flex;
+    flex-direction: column;
+}
+.overlay__content-question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.overlay__content-answer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
