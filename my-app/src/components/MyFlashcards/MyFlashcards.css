@@ -18,8 +18,10 @@ body{
     height: 2.5em;
     display: flex;
     justify-content: flex-start;
+
     margin-right: 2em;
     background-color: #F59F42 !important;
+    
     border-radius: 20px;
     border: none;
     cursor: pointer;

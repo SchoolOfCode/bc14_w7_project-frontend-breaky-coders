@@ -18,41 +18,88 @@
   import './AddAFlashcard.css'
   import flashCardsListData from '../App/stateData';
   import { useState } from 'react';
+  import Swal from 'sweetalert2'
 
-function AddAFlashcard() {
+function AddAFlashcard({ setPage }) {
   const [question, setQuestion] = useState("");
-  const [answer, setAnswer] = useState("")
+  const [answer, setAnswer] = useState("");
+  const [answerInputValue, setAnswerInputValue] = useState("");
+  const [questionInputValue, setQuestionInputValue] = useState("");
 
-  function handleChangeQuestion(e){
-    setQuestion(e.target.value)
+  function handleChangeQuestion(e) {
+    setQuestionInputValue(e.target.value);
+    setQuestion(e.target.value);
   }
 
-  function handleChangeAnswer(e){
-    setAnswer(e.target.value)
+  function handleChangeAnswer(e) {
+    setAnswerInputValue(e.target.value);
+    setAnswer(e.target.value);
   }
 
   function addCard(){
     flashCardsListData.push({question: question, answer: answer})
+    setAnswerInputValue("")
+    setQuestionInputValue("")
     console.log(flashCardsListData)
+    Swal.fire({
+      title: 'You added a new flashcard!',
+      icon: 'success',
+      showConfirmButton: false,
+      timer: 2000,
+    })
+    
   }
 
-  console.log(flashCardsListData)
-  return (
-  <main className='addAFlashCard'>
-  <h1>CREATE A FLASHCARD</h1>
-  <div className = 'flashcard-div'>
-    <label htmlFor="question">QUESTION</label>
-    <input type="text" name="question" onChange={handleChangeQuestion} />
-    <br></br>
-    <br></br>
-    <br></br>
-    <label htmlFor="answer">ANSWER</label>
-    <input type="text" name="answer" onChange={handleChangeAnswer}/>
-  </div>
-    <button className="submit" onClick={addCard}>SUBMIT</button>
-    <button className="cancel">CANCEL</button>
-  </main>
-  )
-}
+  function cancel() {
+    setAnswerInputValue("");
+    setQuestionInputValue("");
+  }
 
+  console.log(flashCardsListData);
+  return (
+    <main className="addAFlashCard">
+      <div className="overlay__header-button">
+        <button
+          onClick={() => {
+            setPage("homepage");
+          }}
+        >
+          {" "}
+          Go Back
+        </button>
+      </div>
+      <h1 className="addAFlashCard-h1">CREATE A FLASHCARD</h1>
+      <div className="flashcard-div">
+        <label htmlFor="question">QUESTION</label>
+        {/* HELP */}
+
+        <textarea
+          required
+          className="firstWhiteBox"
+          type="text"
+          name="question"
+          onChange={handleChangeQuestion}
+          value={questionInputValue}
+        />
+        <br />
+        <label htmlFor="answer">ANSWER</label>
+        <textarea
+          className="secondWhiteBox"
+          type="text"
+          name="answer"
+          value={answerInputValue}
+          onChange={handleChangeAnswer}
+        />
+      </div>
+      <div className="addAFlashCard-buttons-div">
+        <button className="addAFlashCard-cancel" onClick={cancel}>
+          CANCEL
+        </button>
+        <button className="addAFlashCard-submit" onClick={addCard}>
+          SUBMIT
+        </button>
+      </div>
+    </main>
+  );
+}
 export default AddAFlashcard;
