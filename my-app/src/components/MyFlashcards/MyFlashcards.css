@@ -11,7 +11,17 @@ body{
 }
 .overlay__header-heading{
     letter-spacing: .3em;
-    margin-right: 7em;
+    margin-right: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.overlay__header-button{
+  width: 6em;
+  height: 2.5em;
+  margin-right: 60px;
+
 }
 .overlay__header-button>button{
     width: 6em;
@@ -20,7 +30,7 @@ body{
     justify-content: flex-start;
 
     margin-right: 2em;
-    background-color: #F59F42 !important;
+    background-color: #F59F42;
     
     border-radius: 20px;
     border: none;
@@ -41,7 +51,15 @@ body{
     border-bottom: 10px solid transparent;
     border-right: 10px solid white;
     margin-right: 10px;
+    margin-top: -4px;
+    margin-bottom: -2.5px;
   }
+
+    .overlay__header-button>button:hover{
+        transform: translateY(-1px);
+        background-color: #f08d23;
+        cursor: pointer;
+    }
 
 .flashcardsOverlay{
 

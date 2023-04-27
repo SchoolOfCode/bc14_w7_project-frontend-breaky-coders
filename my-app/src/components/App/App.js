@@ -14,9 +14,6 @@ function App() {
   // this is the state for the flashcards the initial value is the data from the stateData.js file
   const [flashCardsList, setFlashCards] = useState(flashCardsListData);
 
-  useEffect(() => {
-    setFlashCards(flashCardsList);
-  }, [flashCardsList]);
 
   function renderPage() {
     if (page === "homepage") {
