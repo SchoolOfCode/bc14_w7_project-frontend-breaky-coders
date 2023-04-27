@@ -37,6 +37,8 @@ function AddAFlashcard() {
 
   function addCard(){
     flashCardsListData.push({question: question, answer: answer})
+    setAnswerInputValue("")
+    setQuestionInputValue("")
     console.log(flashCardsListData)
   }
 
