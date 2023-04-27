@@ -43,15 +43,14 @@ function AddAFlashcard() {
   <div className = 'flashcard-div'>
     <label htmlFor="question">QUESTION</label>
     {/* HELP */}
-      <div className="firstWhiteBox"> 
-    <input type="text" name="question" onChange={handleChangeQuestion} />
-      </div>
+      
+    <input className="firstWhiteBox" type="text" name="question" onChange={handleChangeQuestion} />
     <br></br>
     <br></br>
     <br></br>
     <label htmlFor="answer">ANSWER</label>
-    <input type="text" name="answer" onChange={handleChangeAnswer}/>
-  </div>
+    <input className="secondWhiteBox" type="text" name="answer" onChange={handleChangeAnswer}/>
+    </div>
     <button className="submit" onClick={addCard}>SUBMIT</button>
     <button className="cancel">CANCEL</button>
   </main>

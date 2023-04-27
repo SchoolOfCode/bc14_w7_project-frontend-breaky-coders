@@ -28,8 +28,13 @@ h1{
 }
 
 .firstWhiteBox{
+    height: 10em;
     
-    
+
+}
+
+.secondWhiteBox{
+    height: 20em;
 
 }
 
@@ -38,8 +43,9 @@ h1{
     height: 2.5em;
     margin-top: 1em;
     margin-right: 15em;
-    margin-left: 13em;
+    margin-left: auto;
     align-items: baseline;
+    justify-content: center;
     background-color: teal;
     border-radius: 20px;
     color: #fff;
