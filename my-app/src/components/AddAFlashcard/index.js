@@ -22,18 +22,27 @@
 function AddAFlashcard() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("")
+  const [answerInputValue, setAnswerInputValue] = useState("")
+  const [questionInputValue, setQuestionInputValue] = useState ("")
 
   function handleChangeQuestion(e){
+    setQuestionInputValue(e.target.value)
     setQuestion(e.target.value)
   }
 
   function handleChangeAnswer(e){
+    setAnswerInputValue(e.target.value)
     setAnswer(e.target.value)
   }
 
   function addCard(){
     flashCardsListData.push({question: question, answer: answer})
     console.log(flashCardsListData)
+  }
+
+  function cancel(){
+    setAnswerInputValue("")
+    setQuestionInputValue("")
   }
 
   console.log(flashCardsListData)
@@ -44,15 +53,15 @@ function AddAFlashcard() {
     <label htmlFor="question">QUESTION</label>
     {/* HELP */}
       
-    <input className="firstWhiteBox" type="text" name="question" onChange={handleChangeQuestion} />
+    <input className="firstWhiteBox" type="text" name="question" onChange={handleChangeQuestion} value={questionInputValue} />
     <br></br>
     <br></br>
     <br></br>
     <label htmlFor="answer">ANSWER</label>
-    <input className="secondWhiteBox" type="text" name="answer" onChange={handleChangeAnswer}/>
+    <input className="secondWhiteBox" type="text" name="answer" value={answerInputValue} onChange={handleChangeAnswer}/>
     </div>
     <button className="submit" onClick={addCard}>SUBMIT</button>
-    <button className="cancel">CANCEL</button>
+    <button className="cancel" onClick={cancel}>CANCEL</button>
   </main>
   )
 }
