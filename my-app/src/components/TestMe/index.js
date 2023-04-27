@@ -2,23 +2,23 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./TestMe.css";
 
-function TestMe({flashcardsList}) {
+function TestMe({flashcardsList}) { // flashcardsList is the all the flashcards from the state in App.js
 
-  const [randomIndex, setRandomIndex] = useState(0);
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [randomIndex, setRandomIndex] = useState(0); // this is the state for the random index
+  const [showAnswer, setShowAnswer] = useState(false); // this is the state for the answer. If true, the answer is shown.
 
   useEffect(() => { 
-    setRandomIndex(Math.floor(Math.random() * flashcardsList.length - 1));  
-  },[flashcardsList]);
+    setRandomIndex(Math.floor(Math.random() * flashcardsList.length - 1));// the random index is being set to a new random number every time the flashcards array changes
+  },[flashcardsList]); // this useEffect is being called every time the flashcardsList changes
   
-  const randomizedFlashcard = flashcardsList[randomIndex]; 
+  const randomizedFlashcard = flashcardsList[randomIndex]; // this is a variable for a flashcard with a random index assigned to it
 
-  function handleQuestionButtonClick(){
-    setRandomIndex(Math.floor(Math.random() * (flashcardsList.length - 1)))
+  function handleQuestionButtonClick(){ // this function is called when the "Request A Question" button is clicked
+    setRandomIndex(Math.floor(Math.random() * (flashcardsList.length - 1))) // the random index is being set to a new random number
     setShowAnswer(false);
   }
 
-  function handleAnswerButtonClick(){
+  function handleAnswerButtonClick(){ // this function is called when the "Reveal Answer" button is clicked
     setShowAnswer(true);
   }
 
@@ -37,19 +37,19 @@ function TestMe({flashcardsList}) {
         </div>
         <div className="overlay__content-question">
           <h2>Question:</h2>
-          {randomizedFlashcard && (
-            <h3>{randomizedFlashcard[Object.keys(randomizedFlashcard)[0]]}</h3>
+          {randomizedFlashcard && ( // this is a conditional rendering. If there is a random flashcard, then the question is displayed
+            <h3>{randomizedFlashcard[Object.keys(randomizedFlashcard)[0]]}</h3> // this is the question
           )}
         </div>
         <div className="overlay__content-answer">
-          {showAnswer ? (
+          {showAnswer ? ( // this is a conditional rendering. If showAnswer is true, then the answer is displayed
             <>
               <h2>Answer:</h2>
-              {randomizedFlashcard && (
+              {randomizedFlashcard && ( // this is a conditional rendering. If there is a random flashcard, then the answer is displayed
                 <h3>{randomizedFlashcard[Object.keys(randomizedFlashcard)[1]]}</h3>
               )}
             </>
-          ) : (
+          ) : ( // if showAnswer is false, then nothing is displayed
             <div></div>
           )}
           <div className="overlay__content-answer-button">
