@@ -16,7 +16,7 @@ function MyFlashcards({flashcardsList, setPage, setFlashCards}) {
             <div className="overlay__header-heading">
                 <h1>My Flashcards</h1>
             </div>
-            <div className="overlay__header-button">
+            <div className="overlay__header-btn">
 
                 <button onClick={() => {setPage("homepage")}}>  Go Back</button>
 

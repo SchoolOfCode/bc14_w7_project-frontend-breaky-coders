@@ -58,7 +58,8 @@ function AddAFlashcard({ setPage }) {
   console.log(flashCardsListData);
   return (
     <main className="addAFlashCard">
-      <div className="overlay__header-button">
+      <div className="header__heading">
+        <div className="overlay__header-button">
         <button
           onClick={() => {
             setPage("homepage");
@@ -68,7 +69,8 @@ function AddAFlashcard({ setPage }) {
           Go Back
         </button>
       </div>
-      <h1 className="addAFlashCard-h1">CREATE A FLASHCARD</h1>
+        <h1 className="addAFlashCard-h1">CREATE A FLASHCARD</h1>
+      </div>
       <div className="flashcard-div">
         <label htmlFor="question">QUESTION</label>
         {/* HELP */}
