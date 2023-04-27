@@ -18,6 +18,7 @@
   import './AddAFlashcard.css'
   import flashCardsListData from '../App/stateData';
   import { useState } from 'react';
+  import Swal from 'sweetalert2'
 
 function AddAFlashcard({ setPage }) {
   const [question, setQuestion] = useState("");
@@ -35,11 +36,18 @@ function AddAFlashcard({ setPage }) {
     setAnswer(e.target.value);
   }
 
-  function addCard() {
-    flashCardsListData.push({ question: question, answer: answer });
-    setAnswerInputValue("");
-    setQuestionInputValue("");
-    console.log(flashCardsListData);
+  function addCard(){
+    flashCardsListData.push({question: question, answer: answer})
+    setAnswerInputValue("")
+    setQuestionInputValue("")
+    console.log(flashCardsListData)
+    Swal.fire({
+      title: 'You added a new flashcard!',
+      icon: 'success',
+      showConfirmButton: false,
+      timer: 2000,
+    })
+    
   }
 
   function cancel() {
