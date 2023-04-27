@@ -47,6 +47,22 @@ const flashCardsListData = [
     {
       question: "What is regular expression in JavaScript?",
       answer: "A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for."
+    },
+    {
+      question: "What is a closure in JavaScript?",
+      answer: "A closure is a function that has access to its outer function scope even after the outer function has returned. This means a closure can remember and access variables and arguments of its outer function even after the function has finished."
+    },
+    {
+      question: "What is a promise in JavaScript?",
+      answer: "A promise is an object that may produce a single value some time in the future. It is a proxy for a value not necessarily known when the promise is created."
+    },
+    {
+      question: "What is a pure function?",
+      answer: "A pure function is a function that always returns the same result if the same arguments are passed in. It does not depend on any state, or data, change during a programs execution. It must also not cause any side effects."
+    },
+    {
+      question: "What is the difference between a stateful and stateless component in React?",
+      answer: "Stateful components are components that manage state. Stateless components are components that do not manage state."
     }
 
 ];

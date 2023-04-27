@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import HomePage from "../HomePage";
 import MyFlashcards from "../MyFlashcards";
@@ -14,13 +14,17 @@ function App() {
   // this is the state for the flashcards the initial value is the data from the stateData.js file
   const [flashCardsList, setFlashCards] = useState(flashCardsListData);
 
+  useEffect(() => {
+    setFlashCards(flashCardsList);
+  }, [flashCardsList]);
+
   function renderPage() {
     if (page === "homepage") {
       return <HomePage setPage={setPage} flashCardsList={flashCardsList} />;
     } else if (page === "myFlashcards") {
-      return <MyFlashcards setPage={setPage} flashcardsList={flashCardsList} />;
+      return <MyFlashcards setPage={setPage} flashcardsList={flashCardsList} setFlashCards={setFlashCards} />;
     } else if (page === "testMe") {
-      return <TestMe setPage={setPage} />
+      return <TestMe setPage={setPage} flashcardsList={flashCardsList}/>
     } else if (page === "addAFlashcard") {
       return <AddAFlashcard setPage={setPage} />;
     }

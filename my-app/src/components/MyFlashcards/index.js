@@ -1,7 +1,12 @@
 import Flashcard from "../Flashcard/"
+import { useEffect } from "react";
 import "./MyFlashcards.css"
 
-function MyFlashcards({flashcardsList, setPage}) {
+function MyFlashcards({flashcardsList, setPage, setFlashCards}) {
+
+    useEffect(() => {
+        setFlashCards(flashcardsList);
+      }, [setFlashCards, flashcardsList]);
     
   return (
     <div className="flashcardsOverlay">
