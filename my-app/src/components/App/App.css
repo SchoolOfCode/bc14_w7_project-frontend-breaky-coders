@@ -17,6 +17,7 @@
 }
 img{
  width: 25em;
+ margin-top: -2em;
  
 }
 .header{
@@ -45,7 +46,7 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5em;
+  margin-top: 1em;
 }
 
 .main__random_flashcard-card {
@@ -101,7 +102,7 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 7em;
+  margin-top: 3em;
 }
 
 .nav__buttons-button{
