@@ -1,0 +1,160 @@
+:root{
+  background-color: #247976
+}
+
+.App{
+  height: 100vh;
+  background-color: #247976;
+}
+
+.overlay{
+  max-width: 800px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+ width: 25em;
+ margin-top: -2em;
+ 
+}
+.header{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title{
+
+  position: absolute;
+  top: -0.1em;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.1em;
+  margin-top: 1.7em;
+  margin-right: 0.5em;
+}
+
+.main__random_flashcard{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.main__random_flashcard-card {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px 2px #FFC689;
+  padding: 20px;
+  width: 400px;
+
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__random_flashcard-button{
+  margin-top: .6em;
+  
+}
+
+.main__random_flashcard-button>button{
+  background-color:  #F59F42;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+  font-size: 1em;
+  padding: 0.5em .5em;
+  margin-top: 0.5em;
+  border: none;
+}
+
+.main__random_flashcard-button>button:hover{
+  transform: translateY(-1px);
+  background-color: #f08d23;
+  cursor: pointer;
+}
+
+.nav__buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+.nav__buttons-button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6em;
+  height: 2.5em;
+}
+.nav__buttons-button>button{
+  width: 80%;
+  border-radius: 20px;
+  background-color: #F59F42;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+}
+
+.nav__buttons-button>button:hover{
+  transform: translateY(-1px);
+  background-color: #f08d23;
+  cursor: pointer;
+}
+
+.singleFlashcard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleFlashcard__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px 2px #FFC689;
+  padding: 20px;
+  width: 18.75rem;
+  min-height: 12rem;
+  margin-left: 1em;
+  margin-top: 1em;
+
+}
+
+.overlay__content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
